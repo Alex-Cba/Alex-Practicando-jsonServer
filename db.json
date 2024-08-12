@@ -1,31 +1,146 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "Post 1"
-        },
-        {
-            "id": 2,
-            "title": "Post 2"
-        },
-        {
-            "id": 3,
-            "title": "Post 3"
-        }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
-        },
-        {
-            "id": 2,
-            "body": "some comment",
-            "postId": 1
-        }
-    ],
-    "profile": {
-        "name": "typicode"
+  "teams": [
+    {
+      "id": 1,
+      "name": "Los Pumas",
+      "country": "Argentina"
+    },
+    {
+      "id": 2,
+      "name": "All Blacks",
+      "country": "New Zealand"
+    },
+    {
+      "id": 3,
+      "name": "Springboks",
+      "country": "South Africa"
+    },
+    {
+      "id": 4,
+      "name": "Wallabies",
+      "country": "Australia"
+    },
+    {
+      "id": 5,
+      "name": "Le Bleus",
+      "country": "France"
+    },
+    {
+      "id": 6,
+      "name": "Red Dragons",
+      "country": "Wales"
     }
+  ],
+  "matches": [
+    {
+      "match_id": 1,
+      "team1": "Los Pumas",
+      "team2": "All Blacks",
+      "location": "Buenos Aires",
+      "team1_score": 15,
+      "team2_score": 30,
+      "team1_home": true
+    },
+    {
+      "match_id": 2,
+      "team1": "Springboks",
+      "team2": "Wallabies",
+      "location": "Cape Town",
+      "team1_score": 22,
+      "team2_score": 18,
+      "team1_home": true
+    },
+    {
+      "match_id": 3,
+      "team1": "Le Bleus",
+      "team2": "Red Dragons",
+      "location": "Paris",
+      "team1_score": 28,
+      "team2_score": 14,
+      "team1_home": true
+    },
+    {
+      "match_id": 4,
+      "team1": "All Blacks",
+      "team2": "Springboks",
+      "location": "Auckland",
+      "team1_score": 27,
+      "team2_score": 21,
+      "team1_home": true
+    },
+    {
+      "match_id": 5,
+      "team1": "Red Dragons",
+      "team2": "Los Pumas",
+      "location": "Cardiff",
+      "team1_score": 19,
+      "team2_score": 17,
+      "team1_home": true
+    },
+    {
+      "match_id": 6,
+      "team1": "Wallabies",
+      "team2": "Le Bleus",
+      "location": "Sydney",
+      "team1_score": 13,
+      "team2_score": 25,
+      "team1_home": true
+    }
+  ],
+  "player_statistics": [
+    {
+      "player_id": 1,
+      "name": "Juan Hernández",
+      "team": "Los Pumas",
+      "matches_played": 3,
+      "tries": 2,
+      "penalty_kicks": 5,
+      "tackles_made": 25
+    },
+    {
+      "player_id": 2,
+      "name": "Beauden Barrett",
+      "team": "All Blacks",
+      "matches_played": 3,
+      "tries": 4,
+      "penalty_kicks": 3,
+      "tackles_made": 18
+    },
+    {
+      "player_id": 3,
+      "name": "Siya Kolisi",
+      "team": "Springboks",
+      "matches_played": 3,
+      "tries": 1,
+      "penalty_kicks": 1,
+      "tackles_made": 30
+    },
+    {
+      "player_id": 4,
+      "name": "Michael Hooper",
+      "team": "Wallabies",
+      "matches_played": 3,
+      "tries": 2,
+      "penalty_kicks": 2,
+      "tackles_made": 28
+    },
+    {
+      "player_id": 5,
+      "name": "Antoine Dupont",
+      "team": "Le Bleus",
+      "matches_played": 3,
+      "tries": 3,
+      "penalty_kicks": 4,
+      "tackles_made": 22
+    },
+    {
+      "player_id": 6,
+      "name": "Alun Wyn Jones",
+      "team": "Red Dragons",
+      "matches_played": 3,
+      "tries": 1,
+      "penalty_kicks": 0,
+      "tackles_made": 35
+    }
+  ]
 }
